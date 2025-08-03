@@ -1,0 +1,48 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.navbar-nav .nav-link i {
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover i {
+  transform: scale(1.2);
+  color: #f5fbfb;
+  text-shadow: 0 0 10px #f3f3f3;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.navbar-nav .nav-link:hover i.bounce {
+  animation: bounce 0.4s ease;
+}
+#home h3{
+    color:grey ;
+}
+#home h1{
+    color: white;
+}
+.badge{
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    top: 120px;
+    margin-inline-end: 140px;
+}
+#home img{
+    width: 390px;
+}
+.avatar-img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.avatar-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(7, 7, 7, 0.1);
+}
