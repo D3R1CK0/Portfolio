@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hire me</title>
+    <link rel="shortcut icon" href="./ASSETS/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: black">
+    <div class="container">
+      <nav
+        class="navbar navbar-expand-lg rounded-3"
+        style="background-color: #272626"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+              <li class="nav-item me-4">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  data-bs-toggle="tooltip"
+                  title="Home"
+                  ><i
+                    class="fa-regular fa-house fa-2xl bounce"
+                    style="color: #9ea1a6"
+                  ></i
+                ></a>
+              </li>
+              <li class="nav-item me-4">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./about.html"
+                  data-bs-toggle="tooltip"
+                  title="About"
+                  ><i
+                    class="fa-regular fa-circle-user fa-2xl bounce"
+                    style="color: #9ea1a6"
+                  ></i
+                ></a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="./project.html"
+                  ><i
+                    class="fa-regular fa-floppy-disk fa-2xl bounce"
+                    data-bs-toggle="tooltip"
+                    title="Projects"
+                    style="color: #9ea1a6"
+                  ></i
+                ></a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="./services.html"
+                  ><i
+                    class="fa-solid fa-laptop-code fa-2xl bounce"
+                    data-bs-toggle="tooltip"
+                    title="Services"
+                    style="color: #9ea1a6"
+                  ></i
+                ></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a href="./hireme.html">
+                <button class="btn btn-outline-secondary" type="submit">
+                  <i class="fa-solid fa-plus fa-xs" style="color: #ffffff"></i>
+                  Hire Me
+                </button></a
+              >
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div
+        style="background-color: #272626; overflow: hidden;height: 500px;"
+        class="rounded-3 mt-2"
+      >
+        <section id="home" class="ms-5">
+          <div class="mt-4">
+            <h2 class="fw-bold mt-5" style="color: white">Project Inquiry</h2>
+            <p class="fw-bold mt-3" style="color: #b0b0b0">
+              Have an idea and need a developer to build it? Let’s connect.
+            </p>
+          </div>
+        </section>
+        <div class="row gap-3">
+          <div class="col-lg-6 col-md-6 mx-auto">
+            <input
+              class="rounded-2 p-2 mt-4 ms-5"
+              style="background-color: #454545; color: black"
+              type="text"
+              name=""
+              id=""
+              placeholder="Name"
+            />
+            <input
+              class="rounded-2 p-2 mt-4"
+              style="background-color: #454545; color: black"
+              type="email"
+              name=""
+              id=""
+              placeholder="Email Address"
+            />
+            <input
+              class="p-5 rounded-2 mt-4 ms-5"
+              style="background-color: #454545; color: black; width: 430px"
+              type="text"
+              name=""
+              id=""
+              placeholder="message"
+            />
+            <button
+              style="background-color: #454545; color: #b0b0b0; width: 430px"
+              class="p-2 rounded-2 mt-4 ms-5"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const tooltipTriggerList = document.querySelectorAll(
+      '[data-bs-toggle="tooltip"]'
+    );
+    tooltipTriggerList.forEach((tooltipTriggerEl) => {
+      new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+  </script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"
+  ></script>
+</html>
