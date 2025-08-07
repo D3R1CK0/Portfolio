@@ -131,3 +131,45 @@ html {
     position: static !important;
   }
 }
+@media (min-width:375px)  {
+  .em {
+   
+   width: 120px !important;
+    
+  }
+  .emm{
+    width: 300px !important;
+  }
+  .emb{
+    width: 300px !important;
+  }
+}
+@media (min-width:768px)  {
+  .em {
+   
+   width: 115px !important;
+   margin-right: 0px !important;
+    
+  }
+  .emm{
+    width: 300px !important;
+  }
+  .emb{
+    width: 300px !important;
+  }
+}
+@media (min-width:992px)  {
+  .em {
+   
+   width: 175px !important;
+   margin-right: 0px !important;
+    
+  }
+  .emm{
+    width: 400px !important;
+  }
+  .emb{
+    width: 400px !important;
+  }
+}
+
