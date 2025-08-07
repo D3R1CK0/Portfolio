@@ -67,6 +67,34 @@ html {
     overflow-x: hidden;
   }
 }
+@media (max-width:423px)  {
+  .scroll-box{
+    width: 350px   !important; 
+    padding: 0  !important;
+    position: relative;
+    right: 10px;
+   
+  }
+}
+@media (min-width: 768px)  {
+  .scroll-box{
+    
+    column-gap: 10px !important;
+  }
+}
+@media (min-width: 768px) {
+  .card{
+   width: 15rem !important;
+   position: relative;
+   right: 40px;
+  }
+}
+@media (min-width: 991px) {
+  .card{
+   width: 20rem !important;
+   
+  }
+}
 .animated-bar {
   transition: width 10s ease-in;
 }
